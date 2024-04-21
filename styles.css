@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 10
+    ;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: #58f6e8;
+    padding: 10px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.info-box {
+    flex-basis: calc(33.3333% - 20px);
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #1487c9;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .info-box {
+        flex-basis: 100%;
+    }
+}
